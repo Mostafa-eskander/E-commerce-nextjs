@@ -45,28 +45,28 @@ Optimized design for all screen sizes.
 ## 📂 Project Structure
 
 ```
-Elegant-Clothing/
-│
-├── public/
-│
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── Cart.jsx
-│   │   ├── CartModal.jsx
-│   │   └── Header.jsx
-│   │   └── Prodyct.jsx
-│   │   └── Shop.jsx
-│   │
-│   ├── store/
-│   │   ├── shoping -card-context.jsx
-│   │
-│   ├── App.js
-│   └── index.js
-│
-├── package.json
-└── README.md
+.next/          # Next.js build files
+app/            # Main application pages & routing
+component/      # Reusable UI components
+lib/            # Utility functions & API calls
+node_modules/   # Installed dependencies
+public/         # Static assets (images, icons)
+store/          # State management (Redux / Context)
+.gitignore
+jsconfig.json   # JavaScript configuration for paths
+next.config.js  # Next.js configuration
+package.json
+package-lock.json
+README.md
 ```
+Explanation of key folders:
+
+- app/ → Contains all Next.js pages (home, product, cart, etc.)
+- component/ → Reusable UI components like Navbar, Footer, ProductCard
+- lib/ → Helper functions, API calls, or data fetching utilities
+- store/ → State management logic (Redux or Context API)
+- public/ → Static assets: images, icons, fonts
+- .next/ → Auto-generated build folder (do not edit)
 
 ---
 
