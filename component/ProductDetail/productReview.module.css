@@ -1,0 +1,33 @@
+.reviews {
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+.reviews div {
+    border: 2px solid var(--sky-color);
+    border-radius: 4px;
+    padding: 30px;
+}
+.reviews div h1 {
+    font-weight: bold;
+    margin: 10px 0;
+}
+.reviews div h4 {
+    font-size: 12px;
+    color: #a7a7a7;
+}
+.reviews div p {
+    margin: 15px 0;
+    color: var(--sky-color);
+}
+.reviews div h5 {
+    color: rgb(179, 168, 106);
+}
+.reviews div span {
+    display: inline-block;
+    margin: 10px 0;
+}

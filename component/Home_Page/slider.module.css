@@ -1,0 +1,17 @@
+.image_div {
+    margin: 20px 0;
+    position: relative;
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+}
+.image {
+    border-radius: 20px;
+}
+
+
+@media (max-width: 992px) {
+    .image_div {
+        height: 100px;
+    }
+}
