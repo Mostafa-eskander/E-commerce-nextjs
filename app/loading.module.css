@@ -1,0 +1,15 @@
+.loading {
+    color: var(--sky-color);
+    animation: loading infinite 1s;
+    width: fit-content;
+    font-size: 20px;    
+    margin: 200px auto;
+}
+@keyframes loading {
+    to {
+        color: var(----background);
+    }
+    from {
+        color: var(--sky-color);
+    }
+}

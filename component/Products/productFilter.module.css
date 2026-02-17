@@ -1,0 +1,72 @@
+.filter {
+    position: absolute;
+    top: -40px;
+    cursor: pointer;
+    display: none;
+}
+.filter h1 {
+    font-size: 25px;
+    cursor: pointer;
+    transition: var(--main-transition);
+}
+.filter h1:hover {
+    color: var(--sky-color);
+}
+.filter h1 svg {
+    font-size: 20px;
+}
+.category {
+    position: relative;
+    height: fit-content;
+    width: 300px;
+    border: 1px solid var(--sky-color);
+    padding: 0 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 #000;
+}
+.category h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+.category main div {
+    margin: 20px 0;
+}
+.category main div h4 {
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--sky-color);
+    margin: 20px 0;
+}
+.category main div ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.category main div ul li p {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 992px) {
+    .all {
+        display: none;
+    }
+    .container {
+        margin: 70px auto;
+    }
+    .category {
+        background-color: var(--background);
+        color: var(--foreground);
+        z-index: 99;
+        position: absolute;
+    }
+    .filter {
+        display: block;
+    }
+}
+@media (max-width: 500px) {
+    .category {
+        width: 90%;
+    }
+}
